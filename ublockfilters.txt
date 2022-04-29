@@ -1,0 +1,273 @@
+! 2022-04-29 https://uk.indeed.com
+uk.indeed.com##.ot-sdk-container > .ot-sdk-row
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .companyInfo.tapItem-gutter.company_location.heading6 > .companyLocation:has-text(Remote in England):nth-ancestor(10)
+! Remove any posts that don't have a salary indicated
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon:if-not(.salary-snippet):nth-ancestor(4)
+! Remove any posts that have an "Unspecified" salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(Unspecified):nth-ancestor(12)
+! Remove any posts that have an "flexible" salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(flexible):nth-ancestor(12)
+! Remove any posts that have an hourly salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(per hour):nth-ancestor(12)
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(an hour):nth-ancestor(12)
+! Remove any posts that have a daily salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(per day):nth-ancestor(12)
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(a day):nth-ancestor(12)
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(/day):nth-ancestor(12)
+! Remove any posts that have a "competitive" salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(Competitive):nth-ancestor(12)
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(competitive):nth-ancestor(12)
+! Remove any posts that have a "negotiable" salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(negotiable):nth-ancestor(12)
+! Remove any posts that have a "Excellent" salary
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(Excellent):nth-ancestor(12)
+
+! Remove any posts that have a "iOS" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(iOS):nth-ancestor(11)
+! Remove any posts that have a "Refrigeration" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Refrigeration):nth-ancestor(11)
+! Remove any posts that have a "Dynamics" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Dynamics):nth-ancestor(11)
+! Remove any posts that have a "Test" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Test):nth-ancestor(11)
+! Remove any posts that have a "Front-end" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Front-end):nth-ancestor(11)
+! Remove any posts that have a "Steelwork" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Steelwork):nth-ancestor(11)
+! Remove any posts that have a "Embedded" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Embedded):nth-ancestor(11)
+! Remove any posts that have a "Android" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(Android):nth-ancestor(11)
+! Remove any posts that have a "Product Owner" in the title
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .tapItem-gutter.singleLineTitle.color-text-primary.heading4 > .jobTitle-newJob.jobTitle > span:has-text(/^Product Owner$/):nth-ancestor(11)
+
+! 2022-04-29 https://www.totaljobs.com
+! Remove any posts that put a location of just "UK"
+www.totaljobs.com##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .poKeM.sc-fznLxA > .jExrPv.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .bAwAgE.sc-fznLxA > .hSqkJy.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+! Remove any posts that have an "Unspecified" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Unspecified):nth-ancestor(2)
+! Remove any posts that have an "flexible" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(flexible):nth-ancestor(2)
+! Remove any posts that have an hourly salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per hour):nth-ancestor(2)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(an hour):nth-ancestor(2)
+! Remove any posts that have a daily salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per day):nth-ancestor(2)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Daily):nth-ancestor(2)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(/day):nth-ancestor(2)
+! Remove any posts that have a "competitive" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Competitive):nth-ancestor(2)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(competitive):nth-ancestor(2)
+! Remove any posts that have a "negotiable" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(negotiable):nth-ancestor(2)
+! Remove any posts that have a "Excellent" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Excellent):nth-ancestor(2)
+! Remove any posts that have a "Not Specified" salary
+www.totaljobs.com##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Not Specified):nth-ancestor(2)
+
+! Remove any posts that have a "iOS" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+! Remove any posts that have a "Refrigeration" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+! Remove any posts that have a "Dynamics" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+! Remove any posts that have a "Test" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+! Remove any posts that have a "Front-end" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+! Remove any posts that have a "Steelwork" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+! Remove any posts that have a "Embedded" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+! Remove any posts that have a "Android" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+! Remove any posts that have a "Product Owner" in the title
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+www.totaljobs.com##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+
+
+! 2022-04-29 https://www.cwjobs.co.uk
+! Remove any posts that put a location of just "UK"
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .poKeM.sc-fznLxA > .jExrPv.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .bAwAgE.sc-fznLxA > .hSqkJy.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+! Remove any posts that have an "Unspecified" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Unspecified):nth-ancestor(2)
+! Remove any posts that have an "flexible" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(flexible):nth-ancestor(2)
+! Remove any posts that have an hourly salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per hour):nth-ancestor(2)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(an hour):nth-ancestor(2)
+! Remove any posts that have a daily salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per day):nth-ancestor(2)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Daily):nth-ancestor(2)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(/day):nth-ancestor(2)
+! Remove any posts that have a "competitive" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Competitive):nth-ancestor(2)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(competitive):nth-ancestor(2)
+! Remove any posts that have a "negotiable" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(negotiable):nth-ancestor(2)
+! Remove any posts that have a "Excellent" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Excellent):nth-ancestor(2)
+! Remove any posts that have a "Not Specified" salary
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Not Specified):nth-ancestor(2)
+
+! Remove any posts that have a "iOS" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+! Remove any posts that have a "Refrigeration" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+! Remove any posts that have a "Dynamics" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+! Remove any posts that have a "Test" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+! Remove any posts that have a "Front-end" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+! Remove any posts that have a "Steelwork" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+! Remove any posts that have a "Embedded" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+! Remove any posts that have a "Android" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+! Remove any posts that have a "Product Owner" in the title
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+www.cwjobs.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+
+! 2022-04-29 https://www.jobsite.co.uk
+! Remove any posts that put a location of just "UK"
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .poKeM.sc-fznLxA > .jExrPv.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .gyfeFX.sc-fzqKVi > .bAwAgE.sc-fznLxA > .hSqkJy.sc-fznXWL:contains(/^UK$/):nth-ancestor(4)
+! Remove any posts that have an "Unspecified" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Unspecified):nth-ancestor(2)
+! Remove any posts that have an "flexible" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(flexible):nth-ancestor(2)
+! Remove any posts that have an hourly salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per hour):nth-ancestor(2)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(an hour):nth-ancestor(2)
+! Remove any posts that have a daily salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(per day):nth-ancestor(2)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(/day):nth-ancestor(2)
+! Remove any posts that have a "competitive" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Competitive):nth-ancestor(2)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(competitive):nth-ancestor(2)
+! Remove any posts that have a "negotiable" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(negotiable):nth-ancestor(2)
+! Remove any posts that have a "Excellent" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Excellent):nth-ancestor(2)
+! Remove any posts that have a "Not Specified" salary
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .jpodhy.sc-fzoJMP:has-text(Not Specified):nth-ancestor(2)
+
+! Remove any posts that have a "iOS" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(iOS):nth-ancestor(4)
+! Remove any posts that have a "Refrigeration" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Refrigeration):nth-ancestor(4)
+! Remove any posts that have a "Dynamics" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Dynamics):nth-ancestor(4)
+! Remove any posts that have a "Test" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Test):nth-ancestor(4)
+! Remove any posts that have a "Front-end" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front-end):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Front End):nth-ancestor(4)
+! Remove any posts that have a "Steelwork" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Steelwork):nth-ancestor(4)
+! Remove any posts that have a "Embedded" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Embedded):nth-ancestor(4)
+! Remove any posts that have a "Android" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(Android):nth-ancestor(4)
+! Remove any posts that have a "Product Owner" in the title
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .flsUYk.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+www.jobsite.co.uk##.kxgehf.sc-fznNTe > .kBgtGS.sc-fzooss > .ibpAre.sc-fzqAbL > .krdChg.sc-fzqMAW:has-text(/^Product Owner$/):nth-ancestor(4)
+
+! 2022-04-29 https://www.reed.co.uk
+www.reed.co.uk##.feedback-container.hidden-sm.hidden-xs.alert-feedback.alert
+www.reed.co.uk##.alert-container.hidden-sm.hidden-xs.alert-feedback.alert
+! Remove any posts that put a location of just "United Kingdom"
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > ul > .location:has-text(United Kingdom):nth-ancestor(5)
+! Remove any posts that have an "Unspecified" salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(Unspecified):nth-ancestor(5)
+! Remove any posts that have an "flexible" salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(flexible):nth-ancestor(5)
+! Remove any posts that have an hourly salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(per hour):nth-ancestor(5)
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(an hour):nth-ancestor(5)
+! Remove any posts that have an daily salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(per day):nth-ancestor(5)
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(/day):nth-ancestor(5)
+! Remove any posts that have a "competitive" salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(Competitive):nth-ancestor(5)
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(competitive):nth-ancestor(5)
+! Remove any posts that have a "negotiable" salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(negotiable):nth-ancestor(5)
+! Remove any posts that have a "Excellent" salary
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > .metadata > .list-unstyled > .salary:has-text(Excellent):nth-ancestor(5)
+
+
+! Remove any posts that have a "iOS" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(iOS):nth-ancestor(5)
+! Remove any posts that have a "Refrigeration" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Refrigeration):nth-ancestor(5)
+! Remove any posts that have a "Dynamics" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Dynamics):nth-ancestor(5)
+! Remove any posts that have a "Test" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Test):nth-ancestor(5)
+! Remove any posts that have a "Front-end" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Front End):nth-ancestor(5)
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Front-end):nth-ancestor(5)
+! Remove any posts that have a "Steelwork" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Steelwork):nth-ancestor(5)
+! Remove any posts that have a "Embedded" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Embedded):nth-ancestor(5)
+! Remove any posts that have a "Android" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(Android):nth-ancestor(5)
+! Remove any posts that have a "Product Owner" in the title
+www.reed.co.uk##.row > .details.col-lg-9.col-md-9.col-sm-12 > header > .title > .gtmJobTitleClickResponsive:has-text(/^Product Owner$/):nth-ancestor(5)
+
+! 2022-04-29 https://www.cv-library.co.uk
+! Remove any posts that have an "Unspecified" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(Unspecified):nth-ancestor(3)
+! Remove any posts that have an "flexible" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(flexible):nth-ancestor(3)
+! Remove any posts that have an hourly salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(per hour):nth-ancestor(3)
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(an hour):nth-ancestor(3)
+! Remove any posts that have a daily salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(per day):nth-ancestor(3)
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(Daily):nth-ancestor(3)
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(/day):nth-ancestor(3)
+! Remove any posts that have a "competitive" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(Competitive):nth-ancestor(3)
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(competitive):nth-ancestor(3)
+! Remove any posts that have a "negotiable" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(negotiable):nth-ancestor(3)
+! Remove any posts that have a "Excellent" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(Excellent):nth-ancestor(3)
+! Remove any posts that have a "Not Specified" salary
+www.cv-library.co.uk##.job__main > .l-flex-row.job__details > .salary.job__details-value:has-text(Not Specified):nth-ancestor(3)
