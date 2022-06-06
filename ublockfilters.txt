@@ -2,7 +2,7 @@
 uk.indeed.com##.ot-sdk-container > .ot-sdk-row
 uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .companyInfo.tapItem-gutter.company_location.heading6 > .companyLocation:has-text(Remote in England):nth-ancestor(10)
 ! Remove any posts that don't have a salary indicated
-uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon:if-not(.salary-snippet):nth-ancestor(4)
+uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon:if-not(.salary-snippet-container):nth-ancestor(4)
 ! Remove any posts that have an "Unspecified" salary
 uk.indeed.com##.eu4oa1w0.css-11g4k3a.slider_container > .slider_list > .slider_item > .job_seen_beacon > .jobCard_mainContent > tbody > tr > .resultContent > .metadataContainer.tapItem-gutter.heading6 > .salary-snippet-container.metadata > .salary-snippet > span:has-text(Unspecified):nth-ancestor(12)
 ! Remove any posts that have an "flexible" salary
